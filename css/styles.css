@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+  --primary: #f8537d;
+  --secondary: #353338;
+  --app-grey: #f2f2f2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: linear-gradient(110deg, var(--primary), var(--secondary));
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.card .imagem {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#random {
+  background-color: white;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.btnContainer {
+  padding: 20px 0;
+  text-align: center;
+}
+.btnContainer button {
+  padding: 5px 15px;
+}
